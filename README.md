@@ -50,7 +50,7 @@ To Test you can find the ip by typing :
 ```bash
 minikube service nginx --url 
 ```
-![ngnix_screen](/nginx_screen1.png)
+![ngnix_screen](/nginx.png)
 
 or if you are using linux :
 ```bash
