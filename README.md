@@ -46,16 +46,12 @@ kubectl get services
 ```
 
 You can't see their external IP, because it's running in a minikube
-To Test you can find the ip by typing : 
+To Test you can find the minikube ip by typing in your browser and port as 80 : 
 ```bash
-minikube service nginx --url 
+http://MINIKBE-IP
 ```
 ![ngnix_screen](/nginx.png)
 
-or if you are using linux :
-```bash
-curl $(minikube service nginx --url)
-```
 
 #### Playing with replicas
 
